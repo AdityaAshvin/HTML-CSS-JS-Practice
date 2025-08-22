@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eeefef;
+}
+
+.header{
+    background-color: #1d3d5f;
+    display: flex;
+    justify-content: end;
+    margin: 0;
+}
+
+.header a{
+    display: flex-end;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#apply-button{
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border: 0;
+}
+
+.news{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #eeefef;
+    margin: 0;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 20px;
+  width: 280px;
+  height: 100%;
+  gap: 20px;
+  background-color: white;
+}
+
+#date{
+    text-align: end;
+    color:gray;
+}
+
+#card-header{
+    color: #1d3d5f;
+}
+
+#pub{
+    color:gray;
+}
+
+.card img{
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+.news-grid{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 20px;   
+}
+
+.pages{
+    margin: 50px;
+}
+
+.pagination ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+  display:flex;
+  gap:0;
+  margin-left: 20px;
+}
+
+.pagination .page a{
+  display:block;
+  width:34px;            /* square buttons */
+  height:34px;
+  line-height:34px;      /* vertical centering */
+  text-align:center;
+  text-decoration:none;
+  color:#fff;
+  background:#56a7df;    /* blue */
+  border:1px solid rgba(0,0,0,0.15);
+  font:600 14px/34px system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.pagination .page.current a{
+  background:#f6a01a; /* orange for active page */
+}

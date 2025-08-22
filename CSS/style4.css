@@ -1,0 +1,145 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    margin: 0;
+    padding: 0;
+    background-color: #e2e2e3;
+}
+
+.header-items a {
+  display: block;
+  padding: 12px 24px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  background-color: #e2e2e3;
+  align-items: center;
+}
+
+.header-btn{
+    height: 100%;
+}
+
+#header-img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header-items{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    background-color: #e2e2e3;
+    margin: 0;
+}
+
+.header-items li {
+  border-right: 1px solid white;
+}
+
+.header-items a{    
+    text-decoration: none;
+}
+
+.homepage-card {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin: 20px auto;
+}
+
+.homepage-card h2 {
+  margin: 0 0 10px;
+  color: #6aa30c;
+}
+
+.product {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+#product-img {
+  width: 140px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+#product-name {
+  font-weight: bold;
+  margin: 0 0 6px;
+  color: #333;
+}
+
+#product-desc {
+  margin: 0;
+  line-height: 1.5;
+  color: #555;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage{
+    display: flex;
+    gap: 20px;
+    margin: 0 100px;
+}
+
+.homepage-sec-row{
+    max-width: 300px;
+}
+
+.homepage-card a{
+    color: #6aa30c;
+    font-weight: 500;
+}
+
+.homepage-card-news {
+  background-color: #e2e2e3;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin: 20px auto;
+  gap: 0px;
+}
+
+.homepage-card-news a{
+    color: #6aa30c;
+    font-weight: 500;
+}
+
+.homepage-card-news h2 {
+  margin: 0 0 10px;
+  color: #6aa30c;
+}
+
+#news-item p{
+    margin: 0;
+}
+
+#news-item {
+    margin-bottom: 10px;
+}
+
+.footer{
+    background-color: #6aa30c;
+    padding: 35px;
+    padding-left: 300px;
+}
+
+.footer a{
+    color: black;
+}
